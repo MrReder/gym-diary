@@ -1,23 +1,478 @@
 {
-    "muscle-groups": [
-        {
-            "back": []
-        },
-        {
-            "biceps": []
-        },
-        {
-            "chest": []
-        },
-        {
-            "delts": []
-        },
-        {
-            "legsAndGlutes": []
-        },
-        {
-            "triceps": []
-        }
-    ],
-    "workouts": []
+  "back": [
+    {
+      "id": 1,
+      "exerciseName": "Подтягивания",
+      "src": "https://cdn.mos.cms.futurecdn.net/oUM4CHGCEEMzdSUhtBQF9C.jpg",
+      "alt": "pull-ups-img"
+    },
+    {
+      "id": 2,
+      "exerciseName": "Тяга штанги в наклоне",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzFG6fN8jiyTGeVM2CaOhHJVwNqlpbzx4tOJ5cWhbDsRLuiQy5GrhEKJ0LI48P2y_lpSw&usqp=CAU",
+      "alt": "lift-by-angl-img"
+    },
+    {
+      "id": 3,
+      "exerciseName": "Рычажная тяга",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScpGiOhPZFJVaZpuu096LYZAmQqH6jnnoYdRost9jOQtrxYnMr4WWCml82awPb8uv8LfU&usqp=CAU",
+      "alt": "liverage-lift-img"
+    },
+    {
+      "id": 4,
+      "exerciseName": "Распятие"
+    },
+    {
+      "id": 5,
+      "exerciseName": "Тяга гантели в наклоне"
+    },
+    {
+      "id": 6,
+      "exerciseName": "Пулловер с гантелью"
+    },
+    {
+      "id": 7,
+      "exerciseName": "Т-тяга"
+    },
+    {
+      "id": 8,
+      "exerciseName": "Тяга горизонтального блока"
+    },
+    {
+      "id": 9,
+      "exerciseName": "Пулловер в блочной раме с длинной рукоятью"
+    },
+    {
+      "id": 10,
+      "exerciseName": "Рычажная тяга с ИИП"
+    }
+  ],
+  "biceps": [
+    {
+      "id": 1,
+      "exerciseName": "Подьем штанги на бицепс(ПШБ) E-Z гриф узкий хват"
+    },
+    {
+      "id": 2,
+      "exerciseName": "ПШБ E-Z гриф широкий хват"
+    },
+    {
+      "id": 3,
+      "exerciseName": "ПШБ широкий хват"
+    },
+    {
+      "id": 4,
+      "exerciseName": "ПШБ узкий хват"
+    },
+    {
+      "id": 5,
+      "exerciseName": "Подтягивания обратный хват с акцентом на бицепс"
+    },
+    {
+      "id": 6,
+      "exerciseName": "Сгибание рук с гантелями стоя"
+    },
+    {
+      "id": 7,
+      "exerciseName": "Сгибание рук сидя с гантелями"
+    },
+    {
+      "id": 8,
+      "exerciseName": "Сгибание рук на скамье Скота"
+    },
+    {
+      "id": 9,
+      "exerciseName": "Молотки стоя"
+    },
+    {
+      "id": 10,
+      "exerciseName": "Молотки стоя с ИИП"
+    },
+    {
+      "exerciseName": "Туц ту ру руц",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgKEPtH4J_IsHBaIbeXqwfL07DQpQFKLcgxQ&usqp=CAU",
+      "alt": "Туц ту ру руц",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "exerciseName": "Сгибание рук стоя с ИИП"
+    },
+    {
+      "id": 13,
+      "exerciseName": "Апполон"
+    },
+    {
+      "id": 14,
+      "exerciseName": "Ладони"
+    },
+    {
+      "id": 15,
+      "exerciseName": "ПШБ прямой хват E-Z"
+    }
+  ],
+  "chest": [
+    {
+      "id": 1,
+      "exerciseName": "Жим штанги лежа"
+    },
+    {
+      "id": 2,
+      "exerciseName": "Жим гантелей на наклонной скамье"
+    },
+    {
+      "id": 3,
+      "exerciseName": "Т-жим"
+    },
+    {
+      "id": 4,
+      "exerciseName": "Разведение гантелей на наклонной скамье"
+    },
+    {
+      "id": 5,
+      "exerciseName": "Сведения в блочной раме"
+    },
+    {
+      "id": 6,
+      "exerciseName": "Отжимания на брусьях с акцентом на грудь"
+    },
+    {
+      "id": 7,
+      "exerciseName": "Отжимания от пола"
+    },
+    {
+      "id": 8,
+      "exerciseName": "Жим в машине Смита"
+    },
+    {
+      "id": 9,
+      "exerciseName": "Отжимания в TRX петлях"
+    },
+    {
+      "id": 10,
+      "exerciseName": "Сведения в блочной раме с нижних блоков"
+    },
+    {
+      "exerciseName": "Kiki edit",
+      "src": "https://i.pinimg.com/736x/55/89/d2/5589d2733b9517870179a45fdcbd4219.jpg",
+      "alt": "",
+      "id": 11
+    }
+  ],
+  "delts": [
+    {
+      "id": 1,
+      "exerciseName": "Жим штанги стоя"
+    },
+    {
+      "id": 2,
+      "exerciseName": "Швунг жимовой"
+    },
+    {
+      "id": 3,
+      "exerciseName": "Жим гантелей сидя"
+    },
+    {
+      "id": 4,
+      "exerciseName": "W-жим"
+    },
+    {
+      "id": 5,
+      "exerciseName": "Подьем каната с нижнего блока перед собой"
+    },
+    {
+      "id": 6,
+      "exerciseName": "Подьем гантелей перед собой"
+    },
+    {
+      "id": 7,
+      "exerciseName": "Подьем штанги перед собой"
+    },
+    {
+      "id": 8,
+      "exerciseName": "Жим сидя в Смите"
+    },
+    {
+      "id": 9,
+      "exerciseName": "Отжимания вниз головой"
+    },
+    {
+      "id": 10,
+      "exerciseName": "Руль"
+    },
+    {
+      "id": 11,
+      "exerciseName": "Арбалет"
+    },
+    {
+      "id": 12,
+      "exerciseName": "Тяга гантелей на заднюю дельту"
+    },
+    {
+      "id": 13,
+      "exerciseName": "Тяга штанги на заднюю дельту"
+    },
+    {
+      "id": 14,
+      "exerciseName": "Махи на заднюю дельту"
+    },
+    {
+      "id": 15,
+      "exerciseName": "Задняя дельта в блочной раме с верхних блоков"
+    },
+    {
+      "id": 16,
+      "exerciseName": "Задняя дельта в блочной раме с нижних блоков"
+    },
+    {
+      "id": 17,
+      "exerciseName": "Задняя дельта с нижнего блока по 1ой"
+    },
+    {
+      "id": 18,
+      "exerciseName": "Задняя дельта в горизонтальном блоке"
+    },
+    {
+      "id": 19,
+      "exerciseName": "Протяжка со штангой"
+    },
+    {
+      "id": 20,
+      "exerciseName": "протяжка E-Z гриф"
+    },
+    {
+      "id": 21,
+      "exerciseName": "Тяга гантелей на среднюю дельту"
+    },
+    {
+      "id": 22,
+      "exerciseName": "Махи"
+    },
+    {
+      "id": 23,
+      "exerciseName": "Махи в блочной раме"
+    },
+    {
+      "id": 24,
+      "exerciseName": "Протяжка в Смите"
+    },
+    {
+      "id": 25,
+      "exerciseName": "Махи по 1ой"
+    }
+  ],
+  "legs-and-glutes": [
+    {
+      "id": 1,
+      "exerciseName": "Приседания со штангой на плечах"
+    },
+    {
+      "id": 2,
+      "exerciseName": "Приседания в Смите"
+    },
+    {
+      "id": 3,
+      "exerciseName": "Гоблет-присед"
+    },
+    {
+      "id": 4,
+      "exerciseName": "Фронтальный присед"
+    },
+    {
+      "id": 5,
+      "exerciseName": "Присед с гантелью"
+    },
+    {
+      "id": 6,
+      "exerciseName": "Становая тяга Сумо"
+    },
+    {
+      "id": 7,
+      "exerciseName": "Классическая становая тяга"
+    },
+    {
+      "id": 8,
+      "exerciseName": "Румынская тяга"
+    },
+    {
+      "id": 9,
+      "exerciseName": "Мертвая тяга"
+    },
+    {
+      "id": 10,
+      "exerciseName": "Мертвая тяга с гантелями"
+    },
+    {
+      "id": 11,
+      "exerciseName": "Мертвая тяга по 1ой ноге"
+    },
+    {
+      "id": 12,
+      "exerciseName": "Мертвая тяга в Смите"
+    },
+    {
+      "id": 13,
+      "exerciseName": "Выпады"
+    },
+    {
+      "id": 14,
+      "exerciseName": "Выпады в Смите"
+    },
+    {
+      "id": 15,
+      "exerciseName": "Вышагивания"
+    },
+    {
+      "id": 16,
+      "exerciseName": "Жим ногами"
+    },
+    {
+      "id": 17,
+      "exerciseName": "Жим ногами на бицепс бедра (ББ)"
+    },
+    {
+      "id": 18,
+      "exerciseName": "Разгибания ног"
+    },
+    {
+      "id": 19,
+      "exerciseName": "Сгибания ног"
+    },
+    {
+      "id": 20,
+      "exerciseName": "Сведение ног"
+    },
+    {
+      "id": 21,
+      "exerciseName": "Развдение ног"
+    },
+    {
+      "id": 22,
+      "exerciseName": "Гиперэкстензия на ББ"
+    },
+    {
+      "id": 23,
+      "exerciseName": "Гакк-присед"
+    },
+    {
+      "id": 24,
+      "exerciseName": "Обратный Гакк-присед"
+    },
+    {
+      "id": 25,
+      "exerciseName": "Стульчик"
+    },
+    {
+      "id": 26,
+      "exerciseName": "Эксцентрические опускания корпуса на мат (эксцентрика на ББ)"
+    },
+    {
+      "id": 27,
+      "exerciseName": "Разгибания ног по 1ой"
+    },
+    {
+      "id": 28,
+      "exerciseName": "Сгибания ног по 1ой"
+    },
+    {
+      "id": 29,
+      "exerciseName": "Махи на ягодицы в блочной раме"
+    },
+    {
+      "id": 30,
+      "exerciseName": "Махи на 4ех с гантелью"
+    },
+    {
+      "id": 31,
+      "exerciseName": "Подьем на носки стоя"
+    },
+    {
+      "id": 32,
+      "exerciseName": "Подьем на носки стоя (носки врозь + носки во внутрь)"
+    },
+    {
+      "id": 33,
+      "exerciseName": "Подьем на носки стоя по 1ой ноге"
+    },
+    {
+      "id": 34,
+      "exerciseName": "Отведение ноги по диагонали с нижнего блока"
+    },
+    {
+      "id": "218cb2ac-d011-465c-be65-a47e8bdc0f04",
+      "exerciseName": "New one exercise for legs"
+    }
+  ],
+  "triceps": [
+    {
+      "id": 1,
+      "exerciseName": "Жим штанги лежа узким хватом"
+    },
+    {
+      "id": 2,
+      "exerciseName": "Жим Свенда в верхней точке амплитуды"
+    },
+    {
+      "id": 3,
+      "exerciseName": "Жим штанги в Смите под углом 30 градусов"
+    },
+    {
+      "id": 4,
+      "exerciseName": "Французский жим со штангой"
+    },
+    {
+      "id": 5,
+      "exerciseName": "Французский жим с гантелями"
+    },
+    {
+      "id": 6,
+      "exerciseName": "Французский жим с ИИП"
+    },
+    {
+      "id": 7,
+      "exerciseName": "Обратные отжимания"
+    },
+    {
+      "id": 8,
+      "exerciseName": "Отжимания от пола с узкой постановкой рук"
+    },
+    {
+      "id": 9,
+      "exerciseName": "Разгибания рук с верхнего блока обратным хватом"
+    },
+    {
+      "id": 10,
+      "exerciseName": "Разгибания рук с верхего блока прямым хватом"
+    },
+    {
+      "id": 11,
+      "exerciseName": "Разгибания рук с канатом"
+    },
+    {
+      "id": 12,
+      "exerciseName": "Разгибания рук с канатом и пронацией"
+    },
+    {
+      "id": 13,
+      "exerciseName": "Разгибания рук на канате с верхнего блока из-за головы стоя"
+    },
+    {
+      "id": 14,
+      "exerciseName": "Разгибания с верхнего блока по 1ой руке"
+    },
+    {
+      "id": 15,
+      "exerciseName": "Лыжник"
+    },
+    {
+      "id": "012ecc9e-b0d6-40e3-b43e-5e2c215e25f9",
+      "exerciseName": "Test test"
+    }
+  ],
+  "workouts": [
+    {
+      "id": 222,
+      "name": "Hello world"
+    }
+  ]
 }
