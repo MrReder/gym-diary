@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.74cb41b8.css",
+    "main.js": "/static/js/main.b420183e.js",
+    "static/js/787.be116be7.chunk.js": "/static/js/787.be116be7.chunk.js",
+    "static/media/workouts.jpg": "/static/media/workouts.2345a8f0d2235c13ecf4.jpg",
+    "static/media/legsAndGlutes.svg": "/static/media/legsAndGlutes.c706898dd379e948a35e223917ee2ea8.svg",
+    "static/media/chest.svg": "/static/media/chest.d7e7dbe32747bcf2ce4025fee5975326.svg",
+    "static/media/shoulders.svg": "/static/media/shoulders.78d0712dcb32afa6e43ead3f9f4f461a.svg",
+    "static/media/back.svg": "/static/media/back.7ec7f2615c90e9759e608c82e8cc519c.svg",
+    "static/media/triceps.svg": "/static/media/triceps.ad979f859170d5315028d393f2703282.svg",
+    "static/media/biceps.svg": "/static/media/biceps.39496749bf29ce320299e2ee219d63b5.svg",
+    "index.html": "/index.html",
+    "main.74cb41b8.css.map": "/static/css/main.74cb41b8.css.map",
+    "main.b420183e.js.map": "/static/js/main.b420183e.js.map",
+    "787.be116be7.chunk.js.map": "/static/js/787.be116be7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74cb41b8.css",
+    "static/js/main.b420183e.js"
+  ]
+}
