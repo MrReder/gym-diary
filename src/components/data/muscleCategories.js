@@ -1,38 +1,46 @@
+//I should import imgs here today
+import backImg from '../assets/back.svg';
+import bicepsImg from '../assets/biceps.svg';
+import chestImg from '../assets/chest.svg';
+import legsAndGlutesImg from '../assets/legsAndGlutes.svg';
+import shouldersImg from '../assets/shoulders.svg';
+import tricepsImg from '../assets/triceps.svg';
+
 export const muscleCategories = [
     {
         id: 1,
         catName: 'Back',
-        imgUrl: 'some url',
+        imgUrl: backImg,
         link: '/muscle-groups/back/'
     },
     {
         id: 2,
         catName: 'Biceps',
-        imgUrl: 'some url',
-        link: '/muscle-groups/back/'
+        imgUrl: bicepsImg,
+        link: '/muscle-groups/biceps/'
     },
     {
         id: 3,
         catName: 'Chest',
-        imgUrl: 'some url',
-        link: '/muscle-groups/back/'
+        imgUrl: chestImg,
+        link: '/muscle-groups/chest/'
     },
     {
         id: 4,
         catName: 'Delts',
-        imgUrl: 'some url',
-        link: '/muscle-groups/back/'
+        imgUrl: shouldersImg,
+        link: '/muscle-groups/delts/'
     },
     {
         id: 5,
-        catName: 'LegsAndGlutes',
-        imgUrl: 'some url',
-        link: '/muscle-groups/back/'
+        catName: 'Legs & Glutes',
+        imgUrl: legsAndGlutesImg,
+        link: '/muscle-groups/legs-and-glutes/'
     },
     {
         id: 6,
         catName: 'Triceps',
-        imgUrl: 'some url',
-        link: '/muscle-groups/back/'
+        imgUrl: tricepsImg,
+        link: '/muscle-groups/triceps/'
     }
 ]
