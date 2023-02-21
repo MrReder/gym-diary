@@ -7,11 +7,11 @@ function CategoryList() {
     
 
   return (
-    <div>
+    <div className='category-list-wrapper'>
       {
         muscleCategories.map((item) => (
             <CategoryCard key={item.id}
-            link={item.link} src={item.src} 
+            link={item.link} src={item.imgUrl} 
             alt={item.alt} catName={item.catName}
             />
         ))
